@@ -22,4 +22,4 @@ document.getElementById('conversion-display').innerHTML += "<h2> Original vaue: 
 document.getElementById('conversion-display').innerHTML += "<h2> Original vaue: '" + float + "' Converted: '" + Number(float) + "' isNAN: '" + Number.isNaN(Number(float)) + "' isInteger: '" + Number.isInteger(Number(float)) + "'<br></h2>";
 document.getElementById('math-display').innerHTML += "<h2> 5 + 10 = " + (5 + 10) + "<br></h2>";
 document.getElementById('math-display').innerHTML += "<h2> 5 * 10 = " + (5 * 10) + "<br></h2>";
-document.getElementById('math-display').innerHTML += "<h2> The current us population" + UsPoppulation.toLocaleString()+ "<br></h2>";
+document.getElementById('math-display').innerHTML += "<h2> The current us population: " + UsPoppulation.toLocaleString()+ "<br></h2>";
